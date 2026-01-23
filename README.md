@@ -28,10 +28,11 @@ We then apply two complementary modules for multigranularity distillation: Group
 | w/o GKD-Pro & GKD-Den | 0.712 | 0.669 | [ckpts](https://drive.google.com/drive/folders/1bYGm3jm2LBIWna16y9GCOl_2HELoKYHD?usp=drive_link) |
 | w/o GKD-Den | 0.835 | 0.755 | [ckpts](https://drive.google.com/drive/folders/1DGt-KsndfDP_fsgIzK5ZkUjc1JS-R16K?usp=drive_link) |
 | w/o GKD-Pro | 0.850 | 0.773 | [ckpts](https://drive.google.com/drive/folders/12kqBsMzmgjs_ctETKoVPEsxbHTsyR6bw?usp=drive_link) |
-/*| w/o LR-QFormer | 0.857 | 0.783 | [ckpts](https://drive.google.com/drive/folders/1cJ-kmwF0j0hSHgWcOUwz0YVxz7Ywia58?usp=drive_link) |
-/*| w/o SRCA | 0.832 | 0.768 | [ckpts](https://drive.google.com/drive/folders/1OofX_Txw-_nEUVVhFNNmltfNo1REEw_L?usp=drive_link) |
-/*| w/o Bidirectional | 0.878 | 0.819 | [ckpts](https://drive.google.com/drive/folders/1OofX_Txw-_nEUVVhFNNmltfNo1REEw_L?usp=drive_link) |
-
+'''
+| w/o LR-QFormer | 0.857 | 0.783 | [ckpts](https://drive.google.com/drive/folders/1cJ-kmwF0j0hSHgWcOUwz0YVxz7Ywia58?usp=drive_link) |
+| w/o SRCA | 0.832 | 0.768 | [ckpts](https://drive.google.com/drive/folders/1OofX_Txw-_nEUVVhFNNmltfNo1REEw_L?usp=drive_link) |
+| w/o Bidirectional | 0.878 | 0.819 | [ckpts](https://drive.google.com/drive/folders/1OofX_Txw-_nEUVVhFNNmltfNo1REEw_L?usp=drive_link) |
+'''
 ## 3. Visulization of Results
 ### 3.1 ROC Curve:
 <p align="center">
