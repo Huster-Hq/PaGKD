@@ -42,7 +42,7 @@ We then apply two complementary modules for multigranularity distillation: Group
 ### 3.2 t-SNE:
 Comparisons between our proposed group-levelm distillation components and their image-level variants.
 <p align="center">
-<img src="https://github.com/Huster-Hq/ADD/blob/main/imgs/CAM_visualization.png" alt="Image" width="600px">
+<img src="https://github.com/kyo22/PaGKD/blob/main/img/tsne.jpg" alt="Image" width="600px">
 <p>
 
 
