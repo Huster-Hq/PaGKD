@@ -33,18 +33,12 @@ We then apply two complementary modules for multigranularity distillation: Group
 
 ## 3. Visulization of Results
 ### 3.1 ROC Curve:
-#### In-house Dataset
 <p align="center">
-<img src="https://github.com/Huster-Hq/ADD/blob/main/imgs/average_ROC_private.png" alt="Image" width="600px">
+<img src="https://github.com/kyo22/PaGKD/blob/main/img/roc.png" alt="Image" width="800px">
 <p>
 
-#### Public Dataset (CPC-Paried)
-<p align="center">
-<img src="https://github.com/Huster-Hq/ADD/blob/main/imgs/average_ROC_CPC.png" alt="Image" width="600px">
-<p>
-
-
-### 3.2 CAM Maps:
+### 3.2 t-SNE:
+Comparisons between our proposed group-levelm distillation components and their image-level variants.
 <p align="center">
 <img src="https://github.com/Huster-Hq/ADD/blob/main/imgs/CAM_visualization.png" alt="Image" width="600px">
 <p>
@@ -113,14 +107,12 @@ python test.py
 You can also directly download the `well-trained model` from [Google Drive](https://drive.google.com/drive/folders/1ohYcGtadxcfevFdtLmDsfntqxkdrQR2c?usp=drive_link), and predict the results by `test.py`.
 
 ## Citation
-If you find our paper and code useful in your research, please consider giving us a star ⭐ and citing ADD by the following BibTeX entry.
+If you find our paper and code useful in your research, please consider giving us a star ⭐ and citing PaGKD by the following BibTeX entry.
 ```
-@inproceedings{hu2025holistic,
-  title={Holistic White-Light Polyp Classification via Alignment-Free Dense Distillation of Auxiliary Optical Chromoendoscopy},
-  author={Hu, Qiang and Wang, Qimei and Chen, Jia and Ji, Xuantao and Liu, Mei and Li, Qiang and Wang, Zhiwei},
-  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
-  pages={251--261},
-  year={2025},
-  organization={Springer}
+@article{hu2026pairing,
+  title={Pairing-free Group-level Knowledge Distillation for Robust Gastrointestinal Lesion Classification in White-Light Endoscopy},
+  author={Hu, Qiang and Wang, Qimei and Guo, Yingjie and Li, Qiang and Wang, Zhiwei},
+  journal={arXiv preprint arXiv:2601.09209},
+  year={2026}
 }
 ```
