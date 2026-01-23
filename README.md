@@ -12,9 +12,10 @@
 </div>
 
 ## 1. Overview
-This work implements a novel framework for **enhancing holistic WLI polyp classification** through cross-domain **(NBI->WLI)** knowledge distillation, **without requiring any additinal labeling cost**. The core innovation is Alignment-free Dense Distillation (ADD) module, which establishes dense distillation pathways between misaligned cross-domain features guided by learned affinities. Additionally, we capture the semantic relations to ensure distillation is restricted to semantically consistent regions. Extensive experiments demonstrate that our method achieves the state-of-the-art performance in WLI image classification on both the public CPC-Paired and our in-house datasets.
+
 Our framework PaGKD consists of a trainable WLI classifier and a frozen, pretrained NBI classifier. Both classifiers share the same architecture, following ADD (Hu et al. 2025). To facilitate knowledge transfer between unpaired WLI and NBI images, we introduce
 a group-level feature distillation strategy, instead of regular image-level approaches. 
+
 We then apply two complementary modules for multigranularity distillation: Group-level Prototype Knowledge Distillation (GKD-Pro) performs alignment of global classlevel distributions, while Group-level Dense Knowledge Distillation (GKD-Den) aligns local feature.
 <p align="center">
 <img src="https://github.com/Huster-Hq/ADD/blob/main/imgs/method.png" alt="Image" width="600px">
