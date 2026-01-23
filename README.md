@@ -18,7 +18,7 @@ a group-level feature distillation strategy, instead of regular image-level appr
 
 We then apply two complementary modules for multigranularity distillation: Group-level Prototype Knowledge Distillation (GKD-Pro) performs alignment of global classlevel distributions, while Group-level Dense Knowledge Distillation (GKD-Den) aligns local feature.
 <p align="center">
-<img src="https://github.com/Huster-Hq/ADD/blob/main/imgs/method.png" alt="Image" width="600px">
+<img src="https://github.com/kyo22/PaGKD/blob/main/img/method.jpg" alt="Image" width="600px">
 <p>
 
 ## 2. Checkpoints
