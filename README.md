@@ -13,12 +13,12 @@
 
 ## 1. Overview
 
-Our framework PaGKD consists of a trainable WLI classifier and a frozen, pretrained NBI classifier. Both classifiers share the same architecture, following ADD (Hu et al. 2025). To facilitate knowledge transfer between unpaired WLI and NBI images, we introduce
+Our framework PaGKD consists of a trainable WLI classifier and a frozen, pretrained NBI classifier. Both classifiers share the same architecture, following ADD (Hu et al. 2025). To facilitate knowledge transfer between unpaired WLI and NBI images, we introduce
 a group-level feature distillation strategy, instead of regular image-level approaches. 
 
-We then apply two complementary modules for multigranularity distillation: Group-level Prototype Knowledge Distillation (GKD-Pro) performs alignment of global classlevel distributions, while Group-level Dense Knowledge Distillation (GKD-Den) aligns local feature.
+We then apply two complementary modules for multigranularity distillation: Group-level Prototype Knowledge Distillation (GKD-Pro) performs alignment of global classlevel distributions, while Group-level Dense Knowledge Distillation (GKD-Den) aligns local feature.
 <p align="center">
-<img src="https://github.com/kyo22/PaGKD/blob/main/img/method.jpg" alt="Image" width="600px">
+<img src="https://github.com/kyo22/PaGKD/blob/main/img/method.jpg" alt="Image" width="1000px">
 <p>
 
 ## 2. Checkpoints
