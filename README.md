@@ -3,7 +3,7 @@
 <h1>PaGKD</h1>
 <h3>Pairing-free Group-level Knowledge Distillation for Robust Gastrointestinal Lesion Classification in White-Light Endoscopy</h3>
 <br>
-<a href="https://scholar.google.com/citations?user=rU2JxLIAAAAJ&hl=en">Qiang Hu</a><sup><span>1, &#42</span></sup>, Qimei Wang</a><sup><span>1, &#42</span></sup>, Yingjie Guo</a><sup><span>1</span></sup>, <a href="http://faculty.hust.edu.cn/liqiang15/zh_CN/index.htm">Qiang Li</a><sup><span>1, &#8224;</span></sup>, <a href="https://scholar.google.com/citations?user=LwQcmgYAAAAJ&hl=en">Zhiwei Wang</a><sup><span>1, &#8224;</span></sup>
+<a href="https://scholar.google.com/citations?user=rU2JxLIAAAAJ&hl=en">Qiang Hu</a><sup><span>1, &#42</span></sup>, Qimei Wang</a><sup><span>1, &#42</span></sup>, Yingjie Guo</a><sup><span>1</span></sup>, <a href="http://faculty.hust.edu.cn/liqiang15/zh_CN/index.htm">Qiang Li</a><sup><span>1</span></sup>, <a href="https://scholar.google.com/citations?user=LwQcmgYAAAAJ&hl=en">Zhiwei Wang</a><sup><span>1, &#8224;</span></sup>
 </br>
 
 <sup>1</sup>  WNLO, HUST
